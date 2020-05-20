@@ -1,0 +1,50 @@
+
+
+/* content */
+#kotak {
+    background-color: white;
+    height: 200px;
+    margin-left: 35px;
+    margin-bottom: 30px; 
+    box-shadow: 10px 10px 10px black;
+}
+
+.card {
+    width: 190px; 
+    height: 200px; 
+    margin-left: -15px;
+}
+#header-content p {
+    font-size: 20px;
+    background-color: blue;
+    width: 50%;
+    margin-left: 70px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width:576px){
+
+
+.card {
+    width: 155px; 
+    height: 200px; 
+    margin-left: -15px;
+    }
+    #header-content p {
+        font-size: 15px;
+        background-color: blue;
+        width: 100%;
+        margin-left: 10px;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #kotak {
+        background-color: white;
+        height: 200px;
+        margin-left: 20px;
+        margin-bottom: 30px; 
+    }
+}
